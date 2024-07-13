@@ -1,5 +1,7 @@
+volumes:
+  sqldb-data:
+  
 services:
-
   frontend:
     build:
       context: ./DockerCourseFrontend/DockerCourseFrontend/.
@@ -25,6 +27,8 @@ services:
       - "MSSQL_SA_PASSWORD=Dometrain#123"
     ports:
       - 1433:1433
+    volumes:
+      - sqldb-data:/var/opt/mssql 
   
   database-seed:
     depends_on: [ database ]      

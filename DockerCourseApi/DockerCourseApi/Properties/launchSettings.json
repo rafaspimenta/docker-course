@@ -29,7 +29,9 @@
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": true,
+      "httpsPort": 8081,
+      "httpPort": 8080
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json"

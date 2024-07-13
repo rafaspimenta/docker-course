@@ -2,5 +2,11 @@ DockerCourseApi/.vs/
 DockerCourseFrontend/.vs/
 DockerCourseApi/DockerCourseApi/bin/
 DockerCourseApi/DockerCourseApi/obj/
+DockerCourseApi/DockerCourseApi/DockerCourseApi.csproj.user
+
 DockerCourseFrontend/DockerCourseFrontend/bin/
 DockerCourseFrontend/DockerCourseFrontend/obj/
+/DockerCourseApi/DockerCourseApi/DockerCourseApi.csproj.user
+/DockerCourseApi/bin/Debug
+/DockerCourseApi/obj
+/DockerCourseApi/DockerCourseApi/DockerCourseApi.csproj.user
